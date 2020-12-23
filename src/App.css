@@ -12,12 +12,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-@use "@material/image-list";
-
-.my-image-list {
-  @include image-list.standard-columns(5);
-}
-
 
 .App-header {
   background-color: #282c34;
